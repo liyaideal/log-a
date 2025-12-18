@@ -10,7 +10,7 @@ import AuthFooter from "./AuthFooter";
 type AuthTab = "wallet" | "google" | "telegram";
 
 const AuthCard = () => {
-  const [activeTab, setActiveTab] = useState<AuthTab>("wallet");
+  const [activeTab, setActiveTab] = useState<AuthTab>("google");
 
   const renderAuthContent = () => {
     switch (activeTab) {
