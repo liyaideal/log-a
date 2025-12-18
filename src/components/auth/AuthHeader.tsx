@@ -1,9 +1,9 @@
+import logo from "@/assets/logo.svg";
+
 const AuthHeader = () => {
   return (
     <div className="flex flex-col items-center gap-4 mb-8">
-      <span className="font-brand text-xl font-semibold text-brand">
-        OMENX
-      </span>
+      <img src={logo} alt="OMENX" className="h-16" />
       <div className="text-center">
         <h1 className="mb-2 text-2xl font-semibold text-primary-95">
           Predict the Future, Profit from Certainty
