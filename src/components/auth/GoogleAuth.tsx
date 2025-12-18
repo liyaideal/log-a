@@ -4,7 +4,10 @@ const GoogleAuth = () => {
   return (
     <div className="mb-8 animate-fade-in">
       <p className="mb-4 text-sm text-primary-75">Quick sign-in with Google</p>
-      <button className="glass-button flex justify-center items-center gap-3 w-full py-3 px-4">
+      <button
+        className="glass-button flex justify-center items-center gap-3 w-full py-3 px-4"
+        onClick={() => window.location.href = "https://logb.lovable.app"}
+      >
         <div className="flex justify-center items-center w-5 h-5">
           <Icon icon="logos:google-icon" className="text-lg" />
         </div>
